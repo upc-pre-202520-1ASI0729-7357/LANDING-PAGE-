@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title data-i18n-key="title">ThermaTrace</title>
+  <link rel="stylesheet" href="styles/base.css" />
+  <link rel="stylesheet" href="styles/layout.css" />
+  <link rel="stylesheet" href="styles/components.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="ThermaTrace Logo" class="logo-img">
+      <span class="logo-text">ThermaTrace</span>
+    </div>
+    <nav>
+      <a href="#home" data-i18n-key="navHome">Home</a>
+      <a href="#about" data-i18n-key="navAbout">About</a>
+      <a href="#features" data-i18n-key="navFeatures">Features</a>
+      <a href="#pricing" data-i18n-key="navPricing">Pricing</a>
+      <a href="#team" data-i18n-key="navTeam">Team</a>
+    </nav>
+    <div class="lang-buttons">
+      <button class="lang-btn active" data-lang="en">EN</button>
+      <button class="lang-btn" data-lang="es">ES</button>
+    </div>
+  </header>
+
+  <section class="main-home" id="home">
+    <div class="main-home-text">
+      <h1 data-i18n-key="homeTitle">Ensure Safe & Compliant Medicine Storage with Real Time - Monitoring</h1>
+      <p data-i18n-key="homeDesc">ThermaTrace provides cutting-edge cold chain monitoring solutions to ensure pharmaceutical integrity throughout the supply chain with 24/7 real-time temperature tracking and compliance reporting.</p>
+      <div class="hero-buttons">
+        <button class="btn-demo" data-i18n-key="requestDemo">Request a Demo</button>
+        <button class="btn-learn" data-i18n-key="learnMore">Learn More</button>
+      </div>
+    </div>
+    <div class="main-home-image">
+      <div class="hero-graphic">
+        <img src="images/logo.png" alt="ThermaTrace Logo" class="hero-logo">
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section" id="about">
+    <button class="about-btn" data-i18n-key="aboutBtn">About ThermaTrace</button>
+    <div class="about-content">
+      <div class="about-image">
+        <img src="images/Farma.png" alt="Pharmaceutical Safety">
+      </div>
+      <div class="about-text">
+        <h2 data-i18n-key="aboutTitle">Ensuring Pharmaceutical Safety Through Innovation</h2>
+        <p data-i18n-key="aboutDesc1">ThermaTrace revolutionizes medicine storage monitoring by providing real-time temperature tracking and compliance reporting, ensuring the integrity of temperature-sensitive medications from pharmacy to patient.</p>
+        <p data-i18n-key="aboutDesc2">Our mission is to safeguard pharmaceutical products by delivering enterprise-grade cold chain monitoring solutions that are accessible, reliable, and easy to implement for healthcare facilities of all sizes.</p>
+        <p data-i18n-key="aboutDesc3">With ThermaTrace, healthcare providers can maintain regulatory compliance, reduce medication waste, and most importantly, ensure patient safety through continuous temperature monitoring and instant alert systems.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="features-section" id="features">
+    <button class="features-btn" data-i18n-key="featuresBtn">Our Features</button>
+    <h2 data-i18n-key="featuresTitle">Complete Cold Chain Monitoring Solution</h2>
+    <p data-i18n-key="featuresSubtitle">Advanced features designed to ensure medication safety, regulatory compliance, and operational excellence for healthcare providers.</p>
+    <div class="feature-cards">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <img src="images/emergency.png" alt="Alerts Icon" class="feature-icon-img">
+        </div>
+        <h3 data-i18n-key="featureAlerts">Real time - Alerts</h3>
+        <p data-i18n-key="featureAlertsDesc">Instant notifications via email when temperature thresholds are breached.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <img src="images/medice-recipe.png" alt="History Icon" class="feature-icon-img">
+        </div>
+        <h3 data-i18n-key="featureHistory">Temperature History</h3>
+        <p data-i18n-key="featureHistoryDesc">Comprehensive historical data tracking with detailed analytics and trend visualization.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <img src="images/libro-reclamaciones.png" alt="Compliance Icon" class="feature-icon-img">
+        </div>
+        <h3 data-i18n-key="featureCompliance">Compliance Reports</h3>
+        <p data-i18n-key="featureComplianceDesc">Automated regulatory compliance reports that meet pharmaceutical industry standards.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <img src="images/web.png" alt="Web Access Icon" class="feature-icon-img">
+        </div>
+        <h3 data-i18n-key="featureWeb">Web Application Access</h3>
+        <p data-i18n-key="featureWebDesc">Secure Web Application platform accessible from any device, anywhere in the world.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <h2 data-i18n-key="ctaTitle">Ready to secure your medicine Storage?</h2>
+    <p data-i18n-key="ctaDesc">Join healthcare providers worldwide who trust ThermaTrace for their cold chain monitoring needs.</p>
+    <div class="cta-buttons">
+      <button class="btn-demo" data-i18n-key="requestDemo">Request a Demo</button>
+      <button class="btn-learn" data-i18n-key="learnMore">Learn More</button>
+    </div>
+  </section>
+
+  <section class="pricing-section" id="pricing">
+    <button class="pricing-btn" data-i18n-key="pricingBtn">Platform Pricing</button>
+    <h2 data-i18n-key="pricingTitle">Choose the Perfect Plan for Your Facility</h2>
+    <p data-i18n-key="pricingDesc">Flexible pricing options designed to scale with healthcare providers of all sizes, from small clinics to large hospital networks.</p>
+    <div class="pricing-cards">
+      <div class="pricing-card">
+        <h3 data-i18n-key="freemiumTitle">Freemium</h3>
+        <p data-i18n-key="freemiumDesc">Perfect for small clinics getting started</p>
+        <div class="price" data-i18n-key="freemiumPrice">$0 /month</div>
+        <ul class="features-list">
+          <li data-i18n-key="freemiumFeature1">Up to 2 temperatures monitoring points</li>
+          <li data-i18n-key="freemiumFeature2">Web dashboard access</li>
+          <li data-i18n-key="freemiumFeature3">7-day data history</li>
+          <li data-i18n-key="freemiumFeature4">Basic Email alerts</li>
+          <li data-i18n-key="freemiumFeature5">Community support</li>
+        </ul>
+        <button class="pricing-btn-get" data-i18n-key="getStarted">Get Started</button>
+      </div>
+      <div class="pricing-card featured">
+        <h3 data-i18n-key="premiumTitle">Premium</h3>
+        <p data-i18n-key="premiumDesc">Ideal for pharmacies and medical centers</p>
+        <div class="price" data-i18n-key="premiumPrice">$60 /month</div>
+        <ul class="features-list">
+          <li data-i18n-key="premiumFeature1">Up to 15 temperature monitoring points</li>
+          <li data-i18n-key="premiumFeature2">Real-time email alerts</li>
+          <li data-i18n-key="premiumFeature3">Detailed compliance reports</li>
+          <li data-i18n-key="premiumFeature4">Multi-user access</li>
+          <li data-i18n-key="premiumFeature5">Custom alerts</li>
+          <li data-i18n-key="premiumFeature6">Data export capabilities</li>
+          <li data-i18n-key="premiumFeature7">Priority support</li>
+        </ul>
+        <button class="pricing-btn-get featured" data-i18n-key="getStarted">Get Started</button>
+      </div>
+      <div class="pricing-card">
+        <h3 data-i18n-key="enterpriseTitle">Enterprise</h3>
+        <p data-i18n-key="enterpriseDesc">Scalable solutions for hospital networks or laboratories</p>
+        <div class="price" data-i18n-key="enterprisePrice">Custom</div>
+        <ul class="features-list">
+          <li data-i18n-key="enterpriseFeature1">Unlimited monitoring points</li>
+          <li data-i18n-key="enterpriseFeature2">Advanced analytics & insights</li>
+          <li data-i18n-key="enterpriseFeature3">Custom integrations & API access</li>
+          <li data-i18n-key="enterpriseFeature4">Priority Support</li>
+          <li data-i18n-key="enterpriseFeature5">Advanced user permissions</li>
+          <li data-i18n-key="enterpriseFeature6">Custom training & onboarding</li>
+          <li data-i18n-key="enterpriseFeature7">SLA Guarantees</li>
+        </ul>
+        <button class="pricing-btn-contact" data-i18n-key="contactUs">Contact Us</button>
+      </div>
+    </div>
+    <div class="pricing-footer">
+      <p data-i18n-key="pricingFooter1">All plans include secure cloud storage, GDPR compliance, and regular platform updates</p>
+      <p data-i18n-key="pricingFooter2">For custom solutions please <a href="#" data-i18n-key="contactUs">Contact us</a> for enterprise pricing.</p>
+    </div>
+  </section>
+
+  <section class="team-section" id="team">
+    <button class="team-btn" data-i18n-key="teamBtn">Meet our Team</button>
+    <div class="team-cards">
+      <div class="team-card">
+        <div class="team-photo">
+          <img src="images/fabrizio.jpeg" alt="Fabrizio" class="team-photo-img">
+        </div>
+        <h3 data-i18n-key="teamMember1">Fabrizio Panta</h3>
+        <p class="team-role" data-i18n-key="teamRole">Software Engineer</p>
+        <p class="team-desc" data-i18n-key="teamDesc">Tech enthusiast, and Web developer</p>
+      </div>
+      <div class="team-card">
+        <div class="team-photo">
+          <img src="images/axel.jpeg" alt="Axel" class="team-photo-img">
+        </div>
+        <h3 data-i18n-key="teamMember2">Axel Ordoñez</h3>
+        <p class="team-role" data-i18n-key="teamRole">Software Engineer</p>
+        <p class="team-desc" data-i18n-key="teamDesc">Tech enthusiast, and Web developer</p>
+      </div>
+      <div class="team-card">
+        <div class="team-photo">
+          <img src="images/jean.jpeg" alt="Jean" class="team-photo-img">
+        </div>
+        <h3 data-i18n-key="teamMember3">Jean Grandez</h3>
+        <p class="team-role" data-i18n-key="teamRole">Software Engineer</p>
+        <p class="team-desc" data-i18n-key="teamDesc">Tech enthusiast, and Web developer </p>
+      </div>
+      <div class="team-card">
+        <div class="team-photo">
+          <img src="images/oscar.jpg" alt="Oscar" class="team-photo-img">
+        </div>
+        <h3 data-i18n-key="teamMember4">Oscar Espinoza</h3>
+        <p class="team-role" data-i18n-key="teamRole">Software Engineer</p>
+        <p class="team-desc" data-i18n-key="teamDesc">Tech enthusiast, and Web developer</p>
+      </div>
+      <div class="team-card">
+        <div class="team-photo">
+          <img src="images/frezzia.jpeg" alt="Frezzia" class="team-photo-img">
+        </div>
+        <h3 data-i18n-key="teamMember5">Frezzia Espinoza</h3>
+        <p class="team-role" data-i18n-key="teamRole">Software Engineer</p>
+        <p class="team-desc" data-i18n-key="teamDesc">Tech enthusiast, and Web developer </p>
+      </div>
+    </div>
+  </section>
+
+<footer>
+  <div class="footer-content">
+    <div class="footer-logo-left">
+      <img src="images/logo_2.jpg" alt="ThermaTrace Logo" class="footer-logo-main">
+    </div>
+    <div class="footer-center">
+      <h2 class="footer-title">ThermaTrace™</h2>
+      <p class="footer-tagline" data-i18n-key="footerTagline">Leading the revolution in pharmaceutical cold chain monitoring. Ensuring medicine safety through innovative technology.</p>
+      <button class="footer-demo-btn" data-i18n-key="tryDemo">Try Demo</button>
+      <p class="footer-copyright" data-i18n-key="footerCopyright">© 2024 ThermaTrace. All rights reserved.</p>
+    </div>
+    <div class="footer-social">
+      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link">
+        <img src="images/instagram-icon.png" alt="Instagram" class="social-icon">
+      </a>
+      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-link">
+        <img src="images/x-icon.png" alt="Twitter" class="social-icon">
+      </a>
+      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-link">
+        <img src="images/facebook-icon.png" alt="Facebook" class="social-icon">
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="languageSwitcher.js"></script>
+</body>
+</html>
