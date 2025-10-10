@@ -205,15 +205,23 @@ function changeLanguage(lang) {
 
 document.addEventListener('DOMContentLoaded', function() {
   const buttons = document.querySelectorAll('.lang-btn');
-  
+
   buttons.forEach(button => {
     button.addEventListener('click', function() {
       const lang = this.getAttribute('data-lang');
-      
+
       buttons.forEach(btn => btn.classList.remove('active'));
       this.classList.add('active');
-      
+
       changeLanguage(lang);
+    });
+  });
+
+  // Add event listeners to "Request a Demo" buttons
+  const demoButtons = document.querySelectorAll('.btn-demo');
+  demoButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      window.location.href = 'https://therma-trace.netlify.app/home';
     });
   });
 });
